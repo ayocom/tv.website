@@ -1,0 +1,48 @@
+h1 {
+    text-decoration: underline;
+    font-style: italic;
+    border: groove 10px;
+    border-color: lightblue;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-decoration: underline;
+    font-style: italic;
+    border: groove 5px;
+    border-color: rgb(204, 231, 140);
+    text-align: center;
+}
+
+p {
+    margin: 50px;
+    font-size: 2em;
+    line-height: 1.5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: inset 0 0 7px 5px #ddd;
+}
+
+a {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 2px;
+}
+
+img {
+    margin:50px;
+    border: dotted 5px;
+    border-color: lightblue;
+}
+
+body {
+    background-color: #F8F1E8;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}

@@ -13,6 +13,17 @@ h2 {
     border: groove 5px;
     border-color: rgb(204, 231, 140);
     text-align: center;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+#cool {
+    color: red;
+}
+
+#cool:hover {
+    color: blue;
+    font-size: 15px;
 }
 
 p {
@@ -22,10 +33,11 @@ p {
     padding-top: 10px;
     padding-bottom: 10px;
     box-shadow: inset 0 0 7px 5px #ddd;
+    transition: .75s;
 }
 
 p:hover {
-    box-shadow: inset 0 0 7px 5px #000;
+    text-decoration: underline;
 }
 
 a {
@@ -38,6 +50,12 @@ img {
     margin:50px;
     border: dotted 5px;
     border-color: lightblue;
+    transition: 1s;
+}
+
+img:hover {
+    transform: rotate(360deg);
+    border: dotted 10px red;
 }
 
 body {
